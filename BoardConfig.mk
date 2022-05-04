@@ -21,6 +21,9 @@ AB_OTA_PARTITIONS += \
 # Display
 TARGET_SCREEN_DENSITY := 560
 
+# Compression
+PRODUCT_FS_COMPRESSION := 1
+
 # Partitions
 -include vendor/lineage/config/BoardConfigReservedSize.mk
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
