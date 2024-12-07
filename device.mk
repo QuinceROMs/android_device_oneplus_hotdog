@@ -41,6 +41,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# AlertSlider
+PRODUCT_PACKAGES += \
+    SystemUIOverlay \
+    AlertSliderOverlay
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
