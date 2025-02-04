@@ -25,7 +25,7 @@ TARGET_SCREEN_DENSITY := 560
 PRODUCT_FS_COMPRESSION := 1
 
 # Partitions
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/pixelage/config/BoardConfigReservedSize.mk
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
 BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 100663296
